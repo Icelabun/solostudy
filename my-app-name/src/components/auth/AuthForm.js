@@ -178,7 +178,7 @@ const AuthForm = () => {
                       required
                       fullWidth
                       name="displayName"
-                      label="Hunter Name"
+                      label="student name"
                       value={formData.displayName}
                       onChange={handleInputChange}
                       InputProps={{

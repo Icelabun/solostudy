@@ -65,7 +65,7 @@ const Home = () => {
     <Container maxWidth="lg" sx={{ mt: 4 }}>
       <Box textAlign="center" mb={6}>
         <Typography variant="h3" component="h1" gutterBottom>
-          Welcome to StudyHub
+          Welcome to StudySphere
         </Typography>
         <Typography variant="h5" color="textSecondary" paragraph>
           Your personalized learning platform for success

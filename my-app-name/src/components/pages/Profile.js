@@ -35,7 +35,7 @@ const Profile = () => {
               H
             </Avatar>
             <Typography variant="h5" gutterBottom sx={{ color: '#fff' }}>
-              Hunter Name
+              Student Name
             </Typography>
             <Typography variant="h6" sx={{ color: '#ffd700', mb: 2 }}>
               {stats.rank}
@@ -127,7 +127,7 @@ const Profile = () => {
         <Grid item xs={12}>
           <Paper sx={{ p: 3 }}>
             <Typography variant="h6" gutterBottom>
-              Hunter Achievements
+              Student Achievements
             </Typography>
             <Grid container spacing={3}>
               <Grid item xs={6} md={3}>

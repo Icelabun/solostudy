@@ -83,7 +83,7 @@ const CharacterCreation = () => {
         <Box sx={{ textAlign: 'center' }}>
           <GlowingAvatar>{user?.username?.[0]?.toUpperCase()}</GlowingAvatar>
           <Typography variant="h6" sx={{ mt: 3, color: 'text.secondary' }}>
-            Welcome to the world of Solo Leveling Study Hub
+            Welcome to the world of StudySphere the no1 study hub you can find
           </Typography>
           <Typography variant="body1" sx={{ mt: 2, color: 'text.secondary' }}>
             Before you begin your journey, let's determine your initial attributes.
@@ -93,7 +93,7 @@ const CharacterCreation = () => {
             sx={{ mt: 4 }}
             onClick={() => setStep(1)}
           >
-            Begin Character Creation
+            Begin Your Character Creation
           </Button>
         </Box>
       ),
@@ -189,7 +189,7 @@ const CharacterCreation = () => {
         >
           <CircularProgress size={60} />
           <GlowingText variant="h5" sx={{ mt: 3 }}>
-            Awakening Your Powers...
+            Awakening Your schedule...
           </GlowingText>
         </Box>
       </Fade>

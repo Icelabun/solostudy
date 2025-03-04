@@ -51,7 +51,7 @@ const StudyDungeon = () => {
   const dungeons = [
     {
       name: 'Quick Study Sprint',
-      duration: 25 * 60, // 25 minutes
+      duration: 1 * 60, // 25 minutes
       expReward: 50,
       difficulty: 'E-Rank',
       description: 'A short focused study session. Perfect for beginners.',
